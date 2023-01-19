@@ -16,4 +16,5 @@ export class OrderVM {
   CreatedDate: string;
   Items: OrderItemVM[];
   Note?: string;
+  DeliveryTime: string;
 }
