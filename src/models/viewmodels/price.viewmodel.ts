@@ -7,3 +7,5 @@ class PriceVM {
   Increase?: number;
   IsActive?: boolean;
 }
+
+export { PriceVM };
