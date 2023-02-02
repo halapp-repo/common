@@ -1,4 +1,5 @@
 import { AddressVM } from "./address.viewmodel";
+import { OrderEventVM } from "./events/order.event.viewmodel";
 
 export class OrderItemVM {
   ProductId: string;
@@ -17,4 +18,5 @@ export class OrderVM {
   Items: OrderItemVM[];
   Note?: string;
   DeliveryTime: string;
+  Events?: OrderEventVM[];
 }
