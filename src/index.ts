@@ -7,6 +7,8 @@ import { PriceVM } from "./models/viewmodels/price.viewmodel";
 import { OrderEventType } from "./models/types/order-event.type";
 import { OrderStatusType } from "./models/types/order-status.type";
 import { OrderEventVM } from "./models/viewmodels/events/order.event.viewmodel";
+import { CityType } from "./models/types/city.type";
+import { ProductType } from "./models/types/product.type";
 
 export {
   OrderVM,
@@ -19,4 +21,6 @@ export {
   OrderEventType,
   OrderStatusType,
   OrderEventVM,
+  CityType,
+  ProductType,
 };

@@ -3,4 +3,5 @@ export enum OrderEventType {
   OrderCanceledV1 = "OrderCanceledV1",
   OrderDeliveredV1 = "OrderDeliveredV1",
   OrderPaidV1 = "OrderPaidV1",
+  OrderItemsUpdatedV1 = "OrderItemsUpdatedV1",
 }
