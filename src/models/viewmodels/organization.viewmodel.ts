@@ -8,6 +8,9 @@ class OrganizationVM {
   Email: string;
   Active: boolean;
 
+  Balance: number;
+  UsedBalance: number;
+
   CompanyAddress: AddressVM;
   InvoiceAddress: AddressVM;
 
