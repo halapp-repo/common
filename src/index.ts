@@ -11,6 +11,7 @@ import { OrderEventVM } from "./models/viewmodels/events/order.event.viewmodel";
 import { CityType } from "./models/types/city.type";
 import { ProductType } from "./models/types/product.type";
 import { OrderItemsUpdatedV1PayloadVM } from "./models/viewmodels/events/payloads/order-items-updated-v1.payload.viewmodel";
+import { PaymentType } from "./models/types/payment.type";
 
 export {
   OrderVM,
@@ -27,4 +28,5 @@ export {
   ProductType,
   OrderItemsUpdatedV1PayloadVM,
   AccountEventType,
+  PaymentType,
 };
