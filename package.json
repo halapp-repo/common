@@ -1,6 +1,6 @@
 {
   "name": "@halapp/common",
-  "version": "1.0.28",
+  "version": "1.0.31",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
