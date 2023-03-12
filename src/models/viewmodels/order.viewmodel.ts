@@ -11,9 +11,6 @@ export class OrderItemVM {
 }
 
 export class OrderVM {
-  City: CityType;
-  PaymentType: PaymentMethodType;
-  //
   Id: string;
   OrganizationId: string;
   Status: string;
@@ -24,4 +21,6 @@ export class OrderVM {
   Note?: string;
   DeliveryTime: string;
   Events?: OrderEventVM[];
+  City: CityType;
+  PaymentMethodType: PaymentMethodType;
 }

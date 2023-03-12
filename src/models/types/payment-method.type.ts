@@ -1,6 +1,6 @@
 enum PaymentMethodType {
   card = "card",
-  credit = "credit",
+  balance = "balance",
 }
 
 export { PaymentMethodType };
