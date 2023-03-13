@@ -1,8 +1,10 @@
 enum OrderStatusType {
   Created = "Created",
-  Canceled = "Canceled",
+  PickedUp = "PickedUp",
   Delivered = "Delivered",
   Paid = "Paid",
+  Completed = "Completed",
+  Canceled = "Canceled",
 }
 
 export { OrderStatusType };

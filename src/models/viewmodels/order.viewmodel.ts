@@ -1,3 +1,5 @@
+import { CityType } from "../types/city.type";
+import { PaymentMethodType } from "../types/payment-method.type";
 import { AddressVM } from "./address.viewmodel";
 import { OrderEventVM } from "./events/order.event.viewmodel";
 
@@ -19,4 +21,6 @@ export class OrderVM {
   Note?: string;
   DeliveryTime: string;
   Events?: OrderEventVM[];
+  City: CityType;
+  PaymentMethodType: PaymentMethodType;
 }
