@@ -14,9 +14,17 @@ import { OrderItemsUpdatedV1PayloadVM } from "./models/viewmodels/events/payload
 import { OrganizationActivationToggledV1PayloadVM } from "./models/viewmodels/events/payloads/organization-activation-toggled-v1.payload.viewmodel";
 import { OrganizationActivationToggledV2PayloadVM } from "./models/viewmodels/events/payloads/organization-activation-toggled-v2.payload.viewmodel";
 import { OrganizationWithdrewV1PayloadVM } from "./models/viewmodels/events/payloads/organization-withdrew-v1.payload.viewmodel";
+import { OrganizationDepositV1PayloadVM } from "./models/viewmodels/events/payloads/organization-deposit-v1.payload.viewmodel";
 import { PaymentMethodType } from "./models/types/payment-method.type";
 import { EventSourceAggregate } from "./models/EventSourceAggregate";
 import { AccountEventVM } from "./models/viewmodels/events/account.event.viewmodel";
+import {
+  OrderCanceledPayload,
+  OrderCreatedPayload,
+  OrderItemDeletedPayload,
+  SQSMessage,
+} from "./models/viewmodels/messages";
+import { OrderSQSMessageType } from "./models/types/order.sqs.message.type";
 
 export {
   EventSourceAggregate,
@@ -36,7 +44,13 @@ export {
   OrganizationActivationToggledV1PayloadVM,
   OrganizationActivationToggledV2PayloadVM,
   OrganizationWithdrewV1PayloadVM,
+  OrganizationDepositV1PayloadVM,
   AccountEventType,
   PaymentMethodType,
   AccountEventVM,
+  OrderCanceledPayload,
+  OrderCreatedPayload,
+  OrderItemDeletedPayload,
+  SQSMessage,
+  OrderSQSMessageType,
 };
