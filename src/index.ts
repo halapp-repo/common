@@ -19,12 +19,26 @@ import { PaymentMethodType } from "./models/types/payment-method.type";
 import { EventSourceAggregate } from "./models/EventSourceAggregate";
 import { AccountEventVM } from "./models/viewmodels/events/account.event.viewmodel";
 import {
-  OrderCanceledPayload,
-  OrderCreatedPayload,
-  OrderItemDeletedPayload,
+  OrderCanceledMessagePayload,
+  OrderCreatedMessagePayload,
+  OrderItemsUpdatedMessagePayload,
+  OrderDeliveredMessagePayload,
   SQSMessage,
 } from "./models/viewmodels/messages";
 import { OrderSQSMessageType } from "./models/types/order.sqs.message.type";
+import { BaseStrategy, DeliveryStrategy } from "./models/strategies/index";
+import { ExtraChargeType } from "./models/types/extra-charge.type";
+import {
+  PaymentStrategy,
+  PaymentStrategyError,
+} from "./models/strategies/payment.strategy";
+import { ExtraCharge } from "./models/extra-charge";
+import { ExtraChargeService } from "./models/services/extra-charges.service";
+import {
+  translateExtraChargeType,
+  translateOrderStatus,
+  translatePaymentMethodType,
+} from "./services/translation.service";
 
 export {
   EventSourceAggregate,
@@ -48,9 +62,20 @@ export {
   AccountEventType,
   PaymentMethodType,
   AccountEventVM,
-  OrderCanceledPayload,
-  OrderCreatedPayload,
-  OrderItemDeletedPayload,
+  OrderCanceledMessagePayload,
+  OrderCreatedMessagePayload,
+  OrderItemsUpdatedMessagePayload,
+  OrderDeliveredMessagePayload,
   SQSMessage,
   OrderSQSMessageType,
+  BaseStrategy,
+  DeliveryStrategy,
+  ExtraChargeType,
+  ExtraCharge,
+  PaymentStrategy,
+  PaymentStrategyError,
+  ExtraChargeService,
+  translateExtraChargeType,
+  translateOrderStatus,
+  translatePaymentMethodType,
 };

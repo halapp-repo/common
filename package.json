@@ -1,11 +1,14 @@
 {
   "name": "@halapp/common",
-  "version": "1.0.48",
-  "main": "lib/index.js",
+  "version": "1.0.65",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+ ],
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare" : "npm run build"
+    "clean": "rm -rf ./lib",
+    "build": "npm run clean && tsc -p ./tsconfig.json",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",

@@ -2,6 +2,7 @@ import { CityType } from "../types/city.type";
 import { PaymentMethodType } from "../types/payment-method.type";
 import { AddressVM } from "./address.viewmodel";
 import { OrderEventVM } from "./events/order.event.viewmodel";
+import { ExtraCharge } from "../extra-charge";
 
 export class OrderItemVM {
   ProductId: string;
@@ -23,4 +24,6 @@ export class OrderVM {
   Events?: OrderEventVM[];
   City: CityType;
   PaymentMethodType: PaymentMethodType;
+  ExtraCharges?: ExtraCharge[];
+  TotalPrice: number;
 }

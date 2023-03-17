@@ -1,13 +1,15 @@
 import {
-  OrderCanceledPayload,
-  OrderCreatedPayload,
-  OrderItemDeletedPayload,
+  OrderCanceledMessagePayload,
+  OrderCreatedMessagePayload,
+  OrderItemsUpdatedMessagePayload,
+  OrderDeliveredMessagePayload,
 } from "./order.sqs.message";
 import { SQSMessage } from "./sqs.message";
 
 export {
   SQSMessage,
-  OrderCanceledPayload,
-  OrderCreatedPayload,
-  OrderItemDeletedPayload,
+  OrderCanceledMessagePayload,
+  OrderCreatedMessagePayload,
+  OrderItemsUpdatedMessagePayload,
+  OrderDeliveredMessagePayload,
 };

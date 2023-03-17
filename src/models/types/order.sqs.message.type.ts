@@ -1,7 +1,8 @@
 enum OrderSQSMessageType {
   OrderCreated = "OrderCreated",
   OrderCanceled = "OrderCanceled",
-  OrderItemDeleted = "OrderItemDeleted",
+  OrderItemsUpdated = "OrderItemsUpdated",
+  OrderDelivered = "OrderDelivered",
 }
 
 export { OrderSQSMessageType };
