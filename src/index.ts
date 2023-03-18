@@ -39,6 +39,7 @@ import {
   translateOrderStatus,
   translatePaymentMethodType,
 } from "./services/translation.service";
+import { DistantSaleContractContent } from "./react/DistantSaleContractContent";
 
 export {
   EventSourceAggregate,
@@ -78,4 +79,5 @@ export {
   translateExtraChargeType,
   translateOrderStatus,
   translatePaymentMethodType,
+  DistantSaleContractContent,
 };
