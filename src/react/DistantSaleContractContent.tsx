@@ -295,7 +295,7 @@ const DistantSaleContractContent = ({
       </p>
       <p>
         <b>6.5.</b> ALICI, aldığı ürünü iade etmek istemesi durumunda, telim
-        aldığı tarihten 3 &#40;üç&#40; gün içinde değiştirme hakkı vardır ancak
+        aldığı tarihten 3 &#40;üç&#41; gün içinde değiştirme hakkı vardır ancak
         ne surette olursa olsun ürüne ve ambalajına zarar vermemeyi, iade anında
         fatura aslını ve irsaliyesini iade etmeyi kabul ve taahhüt eder.
       </p>
@@ -381,7 +381,7 @@ const DistantSaleContractContent = ({
         hasarsız teslim edildiğini kontrol ettirme ve durumun yine bir tutanakla
         tespit edilmesini isteme hakkı ALICI&apos;da vardır.
       </p>
-      <h3>MADDE 9- ÜRÜN İADE VE CAYMA HAKKINA İLİŞKİN PROSEDÜRÜ</h3>
+      <h3>MADDE 9. ÜRÜN İADE VE CAYMA HAKKINA İLİŞKİN PROSEDÜRÜ</h3>
       <p>
         Tüketicinin Korunması hakkındaki Kanunnda teslimat tarihinden itibaren
         14 &#40;on dört&#41; gün içinde cayma haklarını kullanarak, &quot;kargo
@@ -431,7 +431,7 @@ const DistantSaleContractContent = ({
         geçerlidir. Ticari nitelikteki işler için Türk Ticaret Kanununu
         hükümleri geçerli olacaktır.
       </p>
-      <h3>MADDE 11- GİZLİLİK</h3>
+      <h3>MADDE 11. GİZLİLİK</h3>
       <p>
         ALICI tarafından iş bu sözleşmede yer alan bilgiler ile ödeme yapmak
         amacı ile SATICI&apos;ya bildirdiği hiçbir bilgi SATICI tarafından 3.
@@ -455,7 +455,7 @@ const DistantSaleContractContent = ({
         prosedürleri için kullanılır. Bazı kampanya bilgileri, yeni ürünler
         hakkında bilgiler, promosyon bilgileri ALICI&apos;ya gönderilebilir.
       </p>
-      <h3>MADDE 12- UYUŞMAZLIK DURUMUNDA YETKİLİ MAHKEME VE İCRA DAİRELERİ</h3>
+      <h3>MADDE 12. UYUŞMAZLIK DURUMUNDA YETKİLİ MAHKEME VE İCRA DAİRELERİ</h3>
       <p>
         İşbu sözleşmenin uygulanmasından kaynaklanan uyuşmazlık durumunda,
         Sanayi ve Ticaret Bakanlığınca her yıl Aralık ayında ilan edilen değere
