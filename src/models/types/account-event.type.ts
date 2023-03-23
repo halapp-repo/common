@@ -9,4 +9,5 @@ export enum AccountEventType {
   OrganizationWithdrewFromBalanceV1 = "OrganizationWithdrewFromBalanceV1",
   OrganizationDepositedToBalanceV1 = "OrganizationDepositedToBalanceV1",
   OrganizationPaidWithCardV1 = "OrganizationPaidWithCardV1",
+  UserUpdatedV1 = "UserUpdatedV1",
 }

@@ -27,7 +27,7 @@ const DistantSaleContractContent = ({
     <div
       style={{
         width: "100%",
-        padding: "0 20px",
+        padding: "0px 20px",
         fontSize: "13px",
         color: "#999",
       }}
@@ -37,39 +37,39 @@ const DistantSaleContractContent = ({
       <h3 style={{ textAlign: "center" }}>MESAFELİ SATIŞ SÖZLEŞMESİ</h3>
       <h3>MADDE 1. TARAFLAR</h3>
       <h4>1.1. Satıcı</h4>
-      <p>
-        <div>
+      <div>
+        <p>
           <b>Ad, Soyad / Ünvan :</b>{" "}
           <a href="https://halapp.io">
             <b>HALAPP TOPTAN TEDARİK VE YAZILIM TİC.LTD.STİ</b>
           </a>
-        </div>
-        <div>
+        </p>
+        <p>
           <b>E-Posta :</b> <a href="mailto: info@halapp.io">info@halapp.io</a>
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Adres :</b> Esentepe, Kolektif House, Talatpaşa Cd. No: 5/1, 34394
           Şişli/İstanbul
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Telefon :</b> +90 &#40;0530&#41; 867 83 75
-        </div>
-      </p>
+        </p>
+      </div>
       <h4>1.2. Alıcı</h4>
-      <p>
-        <div>
+      <div>
+        <p>
           <b>Ad, Soyad / Ünvan :</b> {organizationName}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>E-Posta :</b> {organizationEmail}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Adres :</b> {organizationAddress}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Telefon :</b> {organizationPhone}
-        </div>
-      </p>
+        </p>
+      </div>
       <h3>MADDE 2. KONU</h3>
       <p>
         İşbu aktin konusu, ALICI&apos;nın SATICI&apos;ya ait{" "}
@@ -140,8 +140,8 @@ const DistantSaleContractContent = ({
             </tr>
           </thead>
           <tbody>
-            {items?.map((i) => (
-              <tr>
+            {items?.map((i, index) => (
+              <tr key={index}>
                 <td style={{ border: "1px solid #999", padding: "5px" }}>
                   {i.Name}
                 </td>
@@ -185,29 +185,29 @@ const DistantSaleContractContent = ({
         </table>
       </div>
       <h4>3.2 Teslimat/Fatura Bilgileri</h4>
-      <p>
-        <div>
+      <div>
+        <p>
           <b>Teslimat Adresi :</b> {deliveryAddress}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Teslim Edilecek Kişi/Şirket :</b> {organizationName}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Fatura Adresi :</b> {invoiceAddress}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Sipariş Tarihi :</b> {orderCreatedDate}
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Teslim Şekli :</b> Alıcıya Teslim
-        </div>
-        <div>
+        </p>
+        <p>
           <b>Teslimat Süresi* :</b> En geç 2&#40;iki&#41; gün
-        </div>
-        <div>
+        </p>
+        <p>
           *Sözleşme ve ilgili mevzuat hükümlerinde yer alan istisnalar saklıdır.
-        </div>
-      </p>
+        </p>
+      </div>
       <h3>MADDE 4. SÖZLEŞME TARİHİ VE MÜCBİR NEDENLER</h3>
       <p>
         Sözleşme tarihi, ALICI tarafından siparişin verildiği tarih olan{" "}
