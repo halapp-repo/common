@@ -40,6 +40,7 @@ import {
   translatePaymentMethodType,
 } from "./services/translation.service";
 import { DistantSaleContractContent } from "./react/DistantSaleContractContent";
+import { AvatarSizeType } from "./models/types/avatar-size.types";
 
 export {
   EventSourceAggregate,
@@ -80,4 +81,5 @@ export {
   translateOrderStatus,
   translatePaymentMethodType,
   DistantSaleContractContent,
+  AvatarSizeType,
 };
