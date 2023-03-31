@@ -1,12 +1,15 @@
 import { OrderItemVM, OrderVM } from "../order.viewmodel";
 
-export interface OrderCreatedPayload {
+export interface OrderCreatedMessagePayload {
   Order: OrderVM;
 }
-export interface OrderCanceledPayload {
+export interface OrderCanceledMessagePayload {
   Order: OrderVM;
 }
-export interface OrderItemDeletedPayload {
+export interface OrderItemsUpdatedMessagePayload {
   Order: OrderVM;
-  DeletedItem: OrderItemVM;
+  DeletedItems: OrderItemVM[];
+}
+export interface OrderDeliveredMessagePayload {
+  Order: OrderVM;
 }
