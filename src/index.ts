@@ -41,6 +41,7 @@ import {
 } from "./services/translation.service";
 import { DistantSaleContractContent } from "./react/DistantSaleContractContent";
 import { AvatarSizeType } from "./models/types/avatar-size.types";
+import { OrderPaidV1PayloadVM } from "./models/viewmodels/events/payloads/order-paid-v1.payload.viewmodel";
 
 export {
   EventSourceAggregate,
@@ -57,6 +58,7 @@ export {
   CityType,
   ProductType,
   OrderItemsUpdatedV1PayloadVM,
+  OrderPaidV1PayloadVM,
   OrganizationActivationToggledV1PayloadVM,
   OrganizationActivationToggledV2PayloadVM,
   OrganizationWithdrewV1PayloadVM,
